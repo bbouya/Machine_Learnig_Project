@@ -15,3 +15,24 @@ Let's see how to predict stock price using machine learning and the python progr
 # Data preparation : 
 In the above section, i started the task of stock price prediction by importing the python library. Now I will writ function named prepare_data() that will prepare the dataset so that we can fi it easily in the linear Regression Model.
 
+## Proposal for Predicting Stock Prices Using LSTM
+
+The challenge of this projects is to accurately predict the future closing value of a given stock across a given period of time in the future,
+##### Goals : 
+Explore stock prices.
+Implement basic model using linear regression
+Implement LSTM using keras library
+Compare the results and submit the report.
+## Datasets and inputs 
+I will be using the daily price of the S&P 500 from Junuary 2000 to June 2017, this is a series of data points indexed in time order or time series, My goal will be to predict the closing price for any given date after training, All of the necessary data for the project will come from google finance.
+## Solution statement :
+For this project according to my research the best possible solution is to utilize a LSTM Neural net model capable of learning from time series data, this project will be programmed in a Jupyeter notebook(Anaconda)
+## Project design
+this project will be implemented through the keras/tensorflow Library using LSTM Neural networks, Development Workflow will follow the below sequence :
+    set up Infrastructure
+    prepare datasets
+    Develope Benchmark Model 
+    Develop Basic LSTM model 
+    Improve LSTM Model
+    Document and visualize Results
+    
